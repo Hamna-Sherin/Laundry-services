@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 3rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logoImage{
+    width: 50px;
+
+}
+
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: #333333;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+nav p{
+    background-color: #FFD700;
+    align-content: center;
+    border-radius: 10px;
+    margin-top: -15px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    padding-left: 10px;    
+}
+
+.hero{
+    display: flex;
+}
+
+.hero .left{
+    width: 40%;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+#heroImage{
+    padding-top: -1em;
+    padding-left: 150px;
+    width: 35em;
+}
+
+#blue{
+    color: #FFD700;
+    
+}
+
+.left h1{
+    line-height: 50px;
+    color: #333333;
+}
+
+#pHero{
+    line-height: 28px;
+    color: #333333;
+
+}
+
+#heroButton{
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    background-color:#FFD700;
+    border: none;
+    color: white;
+    font-size: medium;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.serviceOverview{
+    width: 100%;
+    height: 5em;
+    background-color: #f7eba7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.serviceOverview strong{
+    font-size: larger ;
+}
+
+.serviceOverview h2{
+    margin-right: 5em;
+}
+
+span{
+    color: #FFD700;
+}
+
+#plus{
+    width: 13px;
+    vertical-align: middle;
+}
+
+.remove-btn{
+    background-color: rgb(254, 230, 230);
+    color: red;
+    width: 13px;
+}
+
+#buttonTd{
+    padding-left: 43px;
+    text-align: center;
+    height: 30px;
+}
+
+.services td{
+    padding-bottom: 31.5px;
+}
+
+#letterI{
+    width: 20px;
+    vertical-align: middle;
+}
+
+.booking{
+    background-color: #f3f1f1;
+    display: flex;
+    align-items: flex-start;
+    height: 750px;
+    line-height: 35px;
+}
+
+.bookingLeft{
+    background-color: white;
+    width: 42%;
+    border-radius: 15px;
+    padding: 2em;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.services{
+    padding: 15px;
+}
+
+.services button{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+}
+
+.first{
+    background-color: white;
+    border-radius: 15px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 370px;
+    text-align: center;
+}
+
+.first h3{
+    text-align: center;
+}
+
+.first h4{
+    padding: 5px;
+    position: sticky;
+    bottom: 0;
+}
+
+.first td{
+    text-align: center;
+}
+
+#empty-state{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#empty-alert{
+    width: 80px;
+}
+
+#emptyCartMessage{
+    color: gray;
+}
+
+.second{
+    background-color: white;
+    border-radius: 15px;
+    padding:1em 2em;
+    /* padding-left: 2em; */
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.second input{
+    height: 30px;
+    border-radius: 7px;
+    border: 1px #dfdddd solid;
+}
+
+#fullName{
+    width: 337px;
+}
+
+.inlineFields{
+    display: flex;
+    gap: 10px;
+}
+
+form button{
+    height: 40px;
+    width: 337px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFD700;
+    align-content: center;
+    margin-top: 15px;
+    font-size: medium;
+    color: white;
+}
+
+#add-to-cart , #confirmationMsg , #fill-field{
+    margin-top: 10px;
+    display: none;
+}
+
+.qualityDescription{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#descriptionLogo{
+    height: 100px;
+}
+
+.description h3{
+    margin: 10px;
+}
+
+.newsletter{
+    height: 200px;
+    background-color: #f7eba7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.invite h1{
+    font-size: 2rem;
+}
+
+.subscribe input{
+    height: 40px;
+    width: 200px;
+    background-color: #fbf5d1;
+    padding-left: 10px;
+    font-size: medium;
+    border: none;
+}
+
+.subscribe button{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    color: #FFD700;
+    font-size: medium;
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+#followLogo{
+    width: 20px;
+}
+
+footer div{
+    width: 250px;
+    text-align: center;
+}
+
+footer h3{
+    padding: 5px;
+}
+
+.links ul{
+    list-style: none;
+}
