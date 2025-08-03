@@ -23,7 +23,7 @@ buttons.forEach((btn) => {
       btn.classList.add("remove-btn");
       
       const icon = document.createElement("img");
-      icon.src = "minus.png";
+      icon.src = "images/minus.png";
       icon.alt = "";
       icon.style.marginLeft = "5px";
       icon.style.width = "13px"
@@ -37,7 +37,7 @@ buttons.forEach((btn) => {
       btn.classList.remove("remove-btn");
 
       const icon = document.createElement("img");
-      icon.src = "plus.png";
+      icon.src = "images/plus.png";
       icon.alt = "";
       icon.style.marginLeft = "5px";
       icon.style.width = "13px"
@@ -110,10 +110,11 @@ document.getElementById("book-Now").onclick = function(event){
     btn.classList.remove("remove-btn");
 
     const icon = document.createElement("img");
-    icon.src = "plus.png";
+    icon.src = "images/plus.png";
     icon.alt = "";
     icon.style.marginLeft = "5px";
     icon.style.width = "13px";
     btn.appendChild(icon);
   });
 };
+
