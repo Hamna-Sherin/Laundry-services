@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Mart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img id="logoImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmkPpbASAy8bBvS68AFaeyOni8GIxKzbNkyg&s" alt="logo">
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#booking">Services</a></li>
+                        <li><a href="#aboutUs">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div id="username">
+                    <p>Username</p>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero" id="home">
+            <div class="left">
+                <h1>
+                    Revitalize Your <br>Clothes with Expert 
+                </h1>
+                <h1 id="blue">Laundry Services!</h1>
+                <p id="pHero">
+                    From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup and rediscover the freshness of your clothes today!
+                </p><br>
+                <a href="#booking"><button id="heroButton">Book a service today!</button></a>
+            </div>
+
+            <div class="right">
+                <img id="heroImage" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIVFhUVFhUVGRcYGBUVFxgVGBgYFxUVFxoYHSggGBolHRUVITEiJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGjEmHSUvLSstLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABAYCAwUHAQj/xABKEAABAwICBgYFCQYEBAcAAAABAAIDBBEhMQUSQVFhcQYTIoGRsTJScqHBFCMzQoKSstHwQ2JzosLSBxVTk4PT4fEkNER0o7PD/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAJREBAQACAQQDAAIDAQAAAAAAAAECEQMEEiExE0FRFJEiYfCB/9oADAMBAAIRAxEAPwD3FERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEWMj7Ak3w3Ak+AxK1CsZe18eRUbG9FhJIGi5NtnisY6hpNgfcR5hNjai1TzatsCbm2FsOdyFHo9JxyaxacGkgm7SBbE31SbJcpPadVNRaRUNOIK+dffL81nebCfZ21vRROtedw55qBpTS3U2GbjvIAHNUvU4rTC26dpFQpumXVPBklac/mxkd1ycfcu/0Z6RfK9YiMta21nY6pvsBIxPL3K3Hz45+E5cWWPl3kRFszEREBERAREQEREBERAREQEREBERBi91hcqqOiEVWydzsBGIiLHc0a1/sqx1b8WjmVQ+kFc4yAcVf45cd1y8nUZY59uK/VovG4A4uBAPEjsnxsuHoWExVMxcezKQWYk2tfDEYXuomj9LH5mM4/NOd/O9o9zFGqa0kkrzuTnvd4+npcfFuLhWYi18btd90h3wsqxQNbTiZhdhIXOvbIuthhssF04q4uje7gz3taT5lVOpqiXO/W9dPLq4bbcHDvxVi0WYXN+akLiM8cRyBGA7lLcwjN8luTSORLQqto3SEAkJcwBxPpRtIB5aouPBWFtdEBh1g5h/9QXkzDXjS/JhlL9txkJBsQMrFrtY8cHZFVjTujOta6Rs0g1djgAHbLAtse8XXYqNMx+vj+8258lWek+k5XN+ZfrHd1ch5WsCB3qZjbUYY5fivQRTsOETAP3XAk8S5wB9ynwGa4cXNZbHslzneOFlWazSL2m09RKw+qI3x/du3Wd3FQnzxPFhJUD94iUjvBzHcurHhrS4v0J0eqJZIQ6UEE5XFiW7HEccV015t/hn0nAApJZL5lj3a4uSfozrjDPAX4bl6Su7H087kxuOWhERWUEREBERAREQEREBERAREQERfCUEHSLrFp4OXn+mG3kHNei1lM2S2tfDcS3yXNk6PU5xLXn7bvzWnd/jpyZcGV5O/fhVqT6WL/wBuf/unW2pGBVnl0NAdXsEag1QQ5wNrk2O/Ek96jz6Eht9fMD03bSAvOz6XO3cr1OPmxxkRqR1oXcWx/gaVW6tttYq5VNLHfBpAsL2c9rbAADIEZAbRkoFXoent245ADYAl7mjHYbG7e9dNxvbprx9TjPpTqSqMNJ1zbl7sbgFxaHGwsBnYG9ttlPjpBMAX/KJNvaL4R3AanxXZo9B0sLbMY5oJyM0xA5Bww8FK6iI3wdgQPpHbTwVZw5L3rsN+q4bdHtb6MTv91x83rCopBbFjxykIPiHKxP0XCdjvvuXPqdARnJ8g72nzanxU/l4f7/7/ANUPTukSC2PqZDYek4tIPN1ySVyzUSHKMN49p/lZeijorB9Z0jvtW/CAuXpPQcDZOrZrtGoHXDnONyTvvuVphVL1OFUinp6ou7cw1b5NYG4fDxK9/wBB9Z8ni62+v1bNa+d7DPjvVC0DTRwO1sHuGIMlsLbhgAeNrr0pp2q2M0w5uWZ6kfURFZgIiICIiAiIgIiICIiAiIgLXMcFsUescQMLIK1JpqqdNNHFHFqRP1AXB5J7IJycBtWw1td6kHhJ/cumHkXtYXxNha53nFfDM7h7/wA1ZDl/LK31IfCT+5dRr3arde2t2b2va9xldbYY3u3Ab8fzX2enAF3yADO5AGWO0qBEmkAe04YWNsLmzgbDG+y+WxcLpbppnVOYx2s91gGjMYjEjZbiplV0jomnU+Ua7vVY3XPgFy6rStK43d17RvdA8Dxsoq0um6irtZjSSMScezicL/W/W5TYZc/aAzG8/vn4clo0ZVU8mEVQ1x3YA+BxXRcwjb7leVSzy2aywcVr1zw/XevheeChLIrgaSP/AIk/w2+ZXbLyq/WuvUO9lvmoSl05V9ZkOQXn9P8ArxP5r0CPIcgoGSIiAiIgIiICIiAiIgIiICIiAotfkFKUTSGQQQCVLo6W/adlsHxWmli1ncBifyWHSXSxgjAYNaWQhkbd7jgP137E2mtOnOkHVOEELOtncMGDJoGbnnJrRcYnzwXHk0UHfO183WnPUuWwN4BuBk+1h+6Fi58dBC6SR2vK/F79r37ANoYL2A47yV5rpnTk1S4ue46v1WDLh+vDeSZjt6BJ0yo4RqQi4GTYmhrPs2Flqj6fRE4wzAb8D5FedwU4ccRh7r7Ljatk2i2HLVB4gFV7lux6bFW0NZgQxztzhqycbHA+BWclLNALsc6WIZscbyNH7jvrDgV5DI6eAguxbfC93N4C+bTu2c1f+hvSzrAI5HXyAcc2nY128HY79C8qlx077aoOaHtNwcjx2g7iNy3QT62G1RdK0/VEzNHYP0rRu2StHrD3hQpJC11wcsQcwRsPEEIh2yVwKr/zDvZb5rtQzBzQ4bf0QuLU/Tu9lvmglw5eP4lf48hyCoEOXj5q+wDst5DyUDYiIgIiICIiAiIgIiICIiAuV0oqpYqaR8NusGpq3Fxi9oN+4ldVaauxaQdoI8Us34TPbzObpRpENIcWh9zkG2ts2ldHolpWtmfJ8qcC0MBaAGYG/wC7jlfNT9M6GObSAfBRNAExCRsnpOLbHgL/AJrlx6ftz7t3+3dljOzxr+lyorBt9+P5KsRS9fWyyn0Kf5pm7XcLvdzDSB/xCpz9IWvbYPJV7Q0pFE9/1pDM483Pcxp+6GrpcdxU/ptpYzzloPYbkN+4d4I++7cuLTFjiNd+qC4Ma7icDbccgPDOyjaQnxe71nE92Y/GPBc+tnLWsIPoxySfb1XgH9f94q88LV8qYR2ANXIEZkC41u+xsoFRIGguJOzHj8cz+rhcPR8zmtABwsBf7LAcjY4n6pPEDNbNIOu9rX4DAm+GZ27bfmqaWlH9JDfUcLxuwOReATe4O22GBwIFuKnUnYkBabgjWFsnsOJA9zhxVf0lE22wHgAPIZZ79nfI0PVkxgf6cgA4McCbeI96t69KzzdPeOj9b10A1jcjsE+sLXa7vaQVxZIywOjP7J2oP4Z7Ufh2mjgwLD/D4CSmcWve0tkLDq6uIaA5mbTkH27l2tK0LWxSSXLnnq7uNr2aXBowAH7R2y+K0jKzVQdCVGLmH2h5H4LXUfTu5N81C0ZJaZvG49xPwCmSn553JvmiEyHLx81fYD2W8h5KhQ5ePmr7Teg32R5KBsREQEREBERAREQEREBERB8cbC+5QWzD0iVKqvQdyKr08ib06OHj7pX3SVXmqxXVVj3qZXSFcWZtyq2u2Ya8RMirbmxPBNEyXo7errg/ZeT8Fw66bULO/wCC6XR+pGvLGcietbxa8docgcO9RK5ubDVed6epiOGq5zTtyLRf+V3uUZsWuyK9u02SE8zbb37VZ+mGiiHO3PyOzXG/n/8AodypujXka0Tgbk3F8LPaceQOIP8A0VqwibQCzNZ1gRbWucuyzM4HJj+z2cwNYqNW1Ye4thGt2M9mDbZCwA7rXWEui6iof2mmwNi3AAnfc7Tt8VYdHdH4mACaQWw+bZlt9I7cj4HcqWrSOLRaFfKcAXu1dmDAcczty2Lr0mgXQjUeRd7r9nZqtcT4Xauy+rYxoa3sNOAaBZzhwGZ7yANtlhFL1kgLeywDVYDsYMXPPEnHuCjzVtRaf8PKfUgeL5ynHf2QQfAhd/TD/mJPsj+YKJoKgcyJp13N1+2GAR9lp9G92kk2A27FCr65zhIy92iUBpsATqtGtkACLutzaVrHPfbmUQ+dbzPkV0HfTO5N81F0ezt33BSf2ruTfNShOiy8fNX2n9BvsjyVCiy8fNX2m9BvsjyUDYiIgIiICIiAiIgIvjjbErjaR08xhsPFF8MMsrqO1dfLqrQdIonk6r2OtnZwuOYvgpTNLxu+t4FRuNP4+btVnoO5FVqoKmy17SCA6/euXNIfUf3NcfgotdXTcdxl251Woogwuui+hldiIzbjYeZXNq60Nd1QDjIcmAEuPIDNZ53Tpkl9VW+kRxbwv8Fp0fWHsvb6cdzb1oz6beYzHevQtBdD2YTVgDnnERmxaz2tjne4cc1YW0lMPRjjHJjR8FOPj24ublxt1FGmijqYthDhgf1tGPiQqPp7QTh2XDEYteNttoO/9Hevduri3DkvuvGwXAA5ADyV5lHNX5umri60c7LYWOOq7DaDtHO44qXTdWBhLJus54Oy2/BfoCZsDmhz2MO67WnEbrrnup6XF3yeE4Y3jZfyVdxabeMUtM256tmsT6Tjjc7A5xJw4e4q69GujxwkmHZwNrW1yMQANjBnx8u1UyU7XAsgiuMrNa23cBZfKrTNmazWOkecA1uOJ37hvPerSxF3pu0xpDq29mxkedVjcru3nc0AEk7ACVW7AANBuGi1zgXEklzyN7nFzjzWL5iXF73B0jhYkeixv+nHvGAu7bYbBjiw6xsrRkn0Ddu9Zj6V3JvmVnALBYs+kdyb5lSJseXj5q+U/ot9keSokeXj5q+RDsjkFAzREQEREBERAREQV7pjWPjju3iSqJoA1FUwSy3ex17NZZjbXIFze5K9I0/Ex8Za/HhvG0Kix9K6SC1O2CdpbgGtgkIA33aCLcbqtxtu3ZwdRx44dv261JosR21aZjf9vPfne/FS56GB9jLG17gLXtbniLYLiSdKQ70IKhx3BgHm4KPHpCskAc2naxpx+cks7vDGuA8VMwqc+qwnm1YYqeBjtZkYBGWLiB3E2W2o0luVZnbpAjsMp77LvfbxDVHko9JEfSUwO7VkPvv8Fbsy/GN6ziv2sbtKOtZaodPRRENsesebCzXOc7h2QbAYnHDMqq1Gi9KWwmpr7rSD3rX0WnqGvqflTR10QjDQBh1b9a7mm5vcsA7lnyY5SbXw5+Pk/wAYurtIOcbkSfd/6rOKqOxjz90eZXJ0PTzSN1jH1eJxeAdfHBwA7fiQusKGT/VaOTXf3rGW1bLGTwyfUS7GW5uA8rqMWVDjfs2/ifDqys3aMlJwqAB7F/NyzhonN/b35tb/AE2TyTU/EWvhqNX0C8DYyQNPk3zSCjMYEkoLHEO+bDtbAtI+cd9bPLIWzKnGWQeiWu8W/AqrdIqyqNx1Nh61y4eACiyTytLb4iNpN2v2Wu1W/WcDYngDsHFYUbmX1Gi+Fi43PdcqDHRlw1ppDbnqjuUgVbW9lhbwsQrSW+VLZJpqEbtYjZs5Lp0rAFCa9S4nrpm9OS6dBjl8g+kdyb5laWPWdKe27kzzKmq7dKPI9/mr6zIclQIsj+vrFX5mQ5KqzJERAREQEREBfHusLnZivqxkZcEHIgjxQqh9J+kcbJA0StJebBpDnEG2VmA3y4KvjpS3WIdLAbZ4SR25lwI8l3dO9HqaGeOpkLw5jtZobcgkbw0E2xyWL+lkIwvIeAhm/sXRLPp5ll35nlzIukbSez1ZG8Sg/BSo9J32C3tj8ltfpWjdiYAb76d5PvYsGzaOd6VPEPag1fNtlbuilxbxUFwwe1oHN3lZa310X1XyTOH1WY47rRi47ysmN0YMWw0t/ZiWyTTsIGq2SMAZBrmgeATZpzop658jbUcMUV+06Z4L7cGtvjzKhdJ6mWKSKSnc0P19QAi7Xsdi9pG4aoI3Ec11G6VY84Pa48wVWJ675RKZA5rYonOY1xBN3A6r3DEC1wRfhxVMvM06umwtzlWFukNIv207eYeT+ILIMq3elVAexG0D+bWVdi09Sk2NbIzEtuQxjSQbYFzLEcbrq01HE7tGqleNwkAH/wAYB96y+PF6yc6nm21snc2Ef0L42ncM6uU8zH/aortGUoOs6SU8DPNq9417FYvo9H37TID7RDvxEq3ZPxPlKfRl2VZMOQh/5a3QxTsFm1ZcN0rGSW+7qn3qJBQUBN2w0/2WM+AUh9NTNGETPDDwUdkPKrdJGNEl5g+d1r9lvYGJwawOz27TiMVAYHOt1cD4+JY1uGy+tl4FWKt0tCw21mg7GtGJ4BoxXLq9JOsXauowbX4E7rN/PwUyRWxtpIXMZ2nlzrkkm23YLbApkE19qrsGkdZw1nYXywx5qx00UD8Wgs9k4eBuLclbTi5s5jUqN54KRQntu5N8ytbaF49Gzh3A+9bqKkkDnEtzA2jZfjxUZY3TPHkx37dCDb3e4legR5DkFQIoyMx5K+07wWgggiwxGKzsbzKX1WxERQkREQEREBEWE0oaC45BB5tp+p0q+YinjhDQ4XdIc2jNg3br2KnjrT6UbAfbFvJZ9IKqZznPg6sna0g9xuDmqro+GaRz3T1ckT9b0AdQathYtBzGfgm3Dfa0CKTcz7x/tXzq5QcBERuu4Hxt8FyhSNGBr5PvR/kpEdNGP/VTH7Tf7UQkfKnNNn07tX1mFrwO7B1uQW1kkMoNgx1swQMOBBFwea0djL5TL/J/YuXpRkcxAia+WRgtrgWPG78GgpsiN0jNLGC6RrGgbmXP8oVb0NpyEXHUudASS1wbv9K7TY2vt4rLTlHVegYCL2u4u1jq7bWvjbirt0f0VH1bRqi1hsVZlZXo9NjL5cug0to8Yt6lpO9gjP8AMAV02dIKUYCaEcns/Ndg9HaZ3pRNPctkfRukGUDPuhX767NYuQ3S0JykjP2mn4rF+lacek+Pvc1d5ugqUfsI/uN/JS4aCJvoxMHJrR8FPfTwpslbQu9LqHf7ZUaWSiOAZF3ao/CvQRE31R4BfA0D0QByACd9R4/Hmkr9UfM0zz/DhdbxDbKINAVtQbyRiFm55aXY72g4K96d0x1QycdlmgE494HvXC/zSR+UTubnAeV/NU71uy2evCpT9AKpsgcyWAt3Xew+FiPeu9ozR747CRtjzBB5EKW+reM9QHhrH4rGGscb61sP+6vjy6rl5+kmWNs9uxEWtFybLXLpNowC4WlKlwbrN7Wtg1u8/AcVVpHkXEks0jr4tja9rAfVaW2uBzK3teRMNrdNK+92TFo9Vw1h3EEEe9b6DS9REbskYeFyNbmCLe9U+ChqJPQa9jd8sj79zbnDmVsotEVEUuuZIpBY9kFzXe/A+IUe1vXp75Q1Ikja8EG4F7G4BtiO4qQvJuj3SOz/AJu7XA2LTkSPquC9Q0dWCWMPGF8xuIzCxyx06+Pk7vH2koiKrUREQFz9PUjpYHsb6RGC6CIizc08h0R0TbE97pK0iRz9YtiIYQRhquLrl3KwVoFNHaxe53PUP9KuckLXek0HmAfNRX6IpznBEecbD8EY3h/2qTqIj6ORjB/DBPuIWwUr9tQe5jR5kqynQVN/oRjk0N/DZa3dHqb1Hd0ko8nIr8F/VcNNP9Wdp9qP4tcPJR6mlqHizpGMG1zbl1uAcLA/rFWodHYBkJB/xZT+JxWt/RyM/tJfvN+LUPhyUTTdYxgu5wAAtdxGwZkrT0a0u4tJdHI1jTYPdG9sbgci15Gq7uK9Coei9JE7rBEHSevJeRwO9pdfV+zZdghV7XXxZdioU9aDkQpbZ1136Hpyb9RHfeGtB8QLrW/QUB+q4cpJB5OTVb/Nj+Od1qdaVNOgI9j5R9q/4gVh/kA2TS9/Vn+gJqpnLgiGVYPqFO/yAZ9fLy+bt+C/vWibo88+jPb2o9bycFHlPyYfqidJ5Z2uDo2h4cbWJIDcCda21cSSGVwtJM8+ydX8Nl6HUdCpZD2qsAbmxY+JefJZ03+HtOPpJZpeBcGN/kaD701VvnxjzoBzB2ZMQcdbEW819qZ5WwvfHFLMTgTFHJIASLY6oNgBvXrlN0WomWLaWK42uaHu+8+5XXa0AWGACmYss+fc1H55pdIh4LHPMZ1dUX7Lm3zNjiCuhTwxNAvO4jcXMHkLr3YhYiJvqjwC1mbgvDv7eKiopgAC5pAyBfreZxWTn07rXYwngMfdiva0U/Ij+PP15DSQOc+8NO8l1rubG7HYLutuAGJXovRfR8kMR60jWcdbVGIbgBa+04Y2wXZRVudq+HFMbsREVWoiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIg//2Q==" alt="">
+            </div>
+        </div>
+
+        <section class="serviceOverview">
+            <h2>Our Achievements</h2>
+            <p style="border-right: 1px white solid; padding-right: 90px;"><strong>15+</strong> <br> Laundry Services</p>
+            <p style="border-right: 1px white solid; padding-right: 90px"><strong>240+ </strong><br> Happy Customers</p>
+            <p><strong>2+ Yrs</strong> <br> Experience</p>
+        </section>
+
+        <section class="booking" id="booking">
+            <div class="bookingLeft">
+                <h2>Our Services</h2>
+                <p>Click on the Add To Cart Button to add the services to your cart</p>
+                <hr style="margin-top: 15px;">
+                <table class="services">
+                    <tr>
+                        <td>Dry cleaning • <span>₹200.00</span></td>
+                        <td id="buttonTd"><button>Add Item <img id="plus" src="plus.png" alt=""> </button></td>
+                    </tr>
+                    <tr>
+                        <td>Wash & Fold • <span>₹100.00</span> </td>
+                        <td id="buttonTd"><button>Add Item <img id="plus" src="plus.png" alt=""></button></td>
+                    </tr>
+                    <tr>
+                        <td>Ironing • <span>₹30.00</span></td>
+                        <td id="buttonTd"><button>Add Item <img id="plus" src="plus.png" alt=""></button></td>
+                    </tr>
+                    <tr>
+                        <td>Stain Removal • <span>₹500.00</span></td>
+                        <td id="buttonTd"><button>Add Item <img id="plus" src="plus.png" alt=""></button></td>
+                    </tr>
+                    <tr>
+                        <td>Leather & Suede Cleaning • <span>₹999.00</span></td>
+                        <td id="buttonTd"><button>Add Item <img id="plus" src="plus.png" alt=""></button></td>
+                    </tr>
+                    <tr>
+                        <td>Wedding Dress Cleaning • <span>₹2800.00</span></td>
+                        <td id="buttonTd"><button>Add Item <img id="plus" src="plus.png" alt=""></button></td>
+                    </tr>
+                </table>  
+                <hr style="margin-bottom: 15px;">
+                <p><img id="letterI" src="letter-i.png" alt=""><span> Add the items to the cart and book now</span></p> 
+            </div>
+            <div class="right">
+                <div class="first">
+                    <h3>Added Items</h3>
+                    <hr>
+                    <table>
+                        <thead>
+                            <th >S.No</th>
+                            <th style="width: 250px;">Service Name</th>
+                            <th>Price</th>
+                        </thead>
+                        <tbody id="cartTableBody"></tbody>
+                    </table>
+                    <div id="empty-state">
+                        <img id="empty-alert" src="info.png" alt="Empty Cart">
+                        <p id="emptyCartMessage">Your cart is empty.</p>
+                    </div>
+
+                    <hr>
+                    <h4>Total Amount: <span style="color: #FFD700;">₹</span><span id="totalAmount">0</span></h4>
+                </div>
+                <div class="second">
+                    <h4>Book Now</h4>
+                    <form id="booking-form">
+                        <label for="">Full Name</label><br>
+                        <input id="fullName" type="text"><br>
+                        <div class="inlineFields">
+                            <div class="fields">
+                                <label for="">Email ID</label><br>
+                                <input id="email" type="email">
+                            </div>
+                            <div class="fields">
+                                <label for="">Phone Number</label><br>
+                                <input id="phone" type="tel"><br>
+                            </div>
+                        </div>
+                        <button id="book-Now">Book Now</button>
+                    </form>
+                    <div id="confirmationMsg">
+                        <p><img id="letterI" src="success.png" alt=""><span style="color: green;"> Email has been sent successfully</span></p> 
+                    </div>
+                    <div id="fill-field">
+                        <p><img id="letterI" src="alert info.png" alt=""><span style="color: red;"> Please fill all the fields</span></p> 
+                    </div>
+                    
+                    <div id="add-to-cart">
+                        <p><img id="letterI" src="alert info.png" alt=""><span style="color: red;"> Add the items to the cart to book</span></p> 
+                    </div>
+                    
+                
+                </div>
+            </div>
+        </section>
+
+        <section class="qualityDescription" id="aboutUs">
+            <div class="description">
+                <img id="descriptionLogo" src="washing-machine.png" alt="icon">
+                <h3>Premium Services</h3>
+                <p>Elevate your wardrobe with our <br> meticulous dry cleaning,<br>ensuring garments look and feel <br>as good as new</p>
+            </div>
+            <div class="description">
+                <img id="descriptionLogo" src="support.png" alt="icon">
+                <h3>Quick Support</h3>
+                <p>We're committed to providing <br> prompt solutions to ensure your<br>experience is smooth and <br>worry-free</p>
+            </div>
+            <div class="description">
+                <img id="descriptionLogo" src="delivery.png" alt="icon">
+                <h3>Hassle Free Delivery</h3>
+                <p>Enjoy seamless service with our <br> convenient pickup and delivery<br>options, tailored to your  <br>schedule</p>
+            </div>
+            <div class="description">
+                <img id="descriptionLogo" src="cost.png" alt="logo">
+                <h3>Affordable Prices</h3>
+                <p>Experience exceptional care<br>without breaking the bank - our<br>affordable prices make laundry <br>day stress-free</p>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="invite">
+                <h1>Subscribe to our <br> newsletter.</h1>
+            </div>
+            <div class="subscribe">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email"><br><br>
+                <button>Subscribe</button>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="aboutUs">
+            <img id="logoImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmkPpbASAy8bBvS68AFaeyOni8GIxKzbNkyg&s" alt="logo">
+            <h3>About us</h3>
+            <p>Laundry Mart delivers quick, reliable, and quality laundry services at your convenience</p>
+        </div>
+
+        <div class="links">
+            <h3>Important links</h3>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Contact</h3>
+            <p><a href="#">laundryMart@gmail.com</a></p>
+            <p>+91 91234 56780</p>
+        </div>
+        <div class="follow">
+            <h3>Follow Us</h3>
+            <a href=""><img id="followLogo" src="instagram.png" alt=""></a>
+            <a href=""><img id="followLogo" src="facebook.png" alt=""></a>
+            <a href=""><img id="followLogo" src="twitter.png" alt=""></a>
+            <a href=""><img id="followLogo" src="youtube.png" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
